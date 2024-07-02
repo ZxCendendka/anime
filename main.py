@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
-from configure import TOKEN, sticker
+#from configure import TOKEN, sticker
 storage = MemoryStorage()
 
 bot = Bot(token=configure.TOKEN)
