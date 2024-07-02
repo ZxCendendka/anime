@@ -1,0 +1,2 @@
+TOKEN = '7383418152:AAHipKAvUvgwlF0ftfWpYMUbwa7iy9bfV3o'
+sticker = 'CAACAgIAAxkBAAEMarZmhDWX4TwNwcRdQzER1VNxvAm-cAACRVMAAuCjggfdCj_No8iXpzUE'
