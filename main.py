@@ -10,16 +10,13 @@ storage = MemoryStorage()
 
 bot = Bot(token=configure.TOKEN)
 dp = Dispatcher(bot, storage=storage)
-logchat = -логчат
+logchat = -2191103294
 
 keyboard = types.InlineKeyboardMarkup(row_width=3)
 keyboard.add(types.InlineKeyboardButton(text='🐱 неко', callback_data='neko'), types.InlineKeyboardButton(text='💋 цем', callback_data='kiss'))
 keyboard.add(types.InlineKeyboardButton(text='🐱 неко (Gif)', callback_data='neko_gif'), types.InlineKeyboardButton(text='🤗 обнимашки (Gif)', callback_data='hug_gif'))
 keyboard.add(types.InlineKeyboardButton(text='🌌 обои', callback_data='wallpaper'), types.InlineKeyboardButton(text='🎆 аватарка', callback_data='avatar'))
-keyboard.add(types.InlineKeyboardButton(text='☀️ Бесконечное лето', callback_data='summer'))
-
-summerboard = types.InlineKeyboardMarkup(row_width=3)
-summerboard.add(types.InlineKeyboardButton(text='💙 Miku', callback_data='miku'), types.InlineKeyboardButton(text='💜 Lena', callback_data='lena'))
+types.InlineKeyboardMarkup(row_width=3)
 
 async def anti_flood(*args, **kwargs):
     m = args[0]
