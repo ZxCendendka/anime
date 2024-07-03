@@ -1,2 +1,2 @@
-TOKEN = '7383418152:AAHipKAvUvgwlF0ftfWpYMUbwa7iy9bfV3o'
+TOKEN = 'token'
 sticker = 'CAACAgQAAxkBAAEDp89h26uiXkRA__Tv5HA_jqSRUspEHwACrwQAAkXeuwWoWv-osWgTzyME'
